@@ -1,0 +1,8 @@
+{
+  "hour": "2024-11-03T01:00",
+  "zone": "Z-1",
+  "revision": "r1",
+  "fuel": "coal",
+  "mwh": 100,
+  "utc_offset": "-04:00"
+}

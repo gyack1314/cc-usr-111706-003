@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://grid.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://grid.example.test/grid-fuel/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 126,
+        "sha256": "75b8c70f5f41323da62c4501cd17c49cf7795fb802532ff62aff15128fa9fed4"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://grid.example.test/grid-fuel/primary",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 127,
+        "sha256": "0c222641d3ac40547d98e1114d01baf9cf682eb3267a7fe566495a67651d14ba"
+      }
+    }
+  ]
+}
